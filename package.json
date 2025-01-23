@@ -1,13 +1,26 @@
 {
-  "name": "espinoza",
-  "version": "1.0.0",
+  "name": "wsd-lab-i",
+  "version": "0.0.1",
+  "description": "Laboratorios del curso de Diseño de sistemas web.",
+  "keywords": [],
+  "homepage": "https://github.com/kjNX/wsd-lab-i#readme",
+  "bugs": {
+    "url": "https://github.com/kjNX/wsd-lab-i/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjNX/wsd-lab-i.git"
+  },
+  "license": "MIT",
+  "author": "Kevin Uscata",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tabla-multiplicar-7": "node ./03-bases-node/app.js --j=7"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "description": ""
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.7.2"
+  }
 }
